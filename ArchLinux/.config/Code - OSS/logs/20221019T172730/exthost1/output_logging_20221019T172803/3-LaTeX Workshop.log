@@ -1,0 +1,363 @@
+[17:28:07] Initializing LaTeX Workshop.
+[17:28:07] Extension root: /home/dblock/.vscode-oss/extensions/james-yu.latex-workshop-8.29.0-universal
+[17:28:07] $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:28:07] $SHELL: /bin/bash
+[17:28:07] $LANG: en_US.UTF-8
+[17:28:07] $LC_ALL: undefined
+[17:28:07] process.platform: linux
+[17:28:07] process.arch: x64
+[17:28:07] vscode.env.appName: Code - OSS
+[17:28:07] vscode.env.remoteName: undefined
+[17:28:07] vscode.env.uiKind: 1
+[17:28:07] Configuration for workspace: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:07] editor.acceptSuggestionOnEnter: "on"
+[17:28:07] latex-workshop.bind.enter.key: true
+[17:28:07] latex-workshop.docker.enabled: false
+[17:28:07] latex-workshop.docker.image.latex: ""
+[17:28:07] latex-workshop.hover.preview.mathjax.extensions: []
+[17:28:07] latex-workshop.intellisense.package.enabled: true
+[17:28:07] latex-workshop.intellisense.update.aggressive.enabled: false
+[17:28:07] latex-workshop.intellisense.update.delay: 1000
+[17:28:07] latex-workshop.latex.autoBuild.run: "onFileChange"
+[17:28:07] latex-workshop.latex.build.forceRecipeUsage: true
+[17:28:07] latex-workshop.latex.outDir: "%DIR%"
+[17:28:07] latex-workshop.latex.recipes: [
+ {
+  "name": "latexmk 🔃",
+  "tools": [
+   "latexmk"
+  ]
+ },
+ {
+  "name": "latexmk (latexmkrc)",
+  "tools": [
+   "latexmk_rconly"
+  ]
+ },
+ {
+  "name": "latexmk (lualatex)",
+  "tools": [
+   "lualatexmk"
+  ]
+ },
+ {
+  "name": "latexmk (xelatex)",
+  "tools": [
+   "xelatexmk"
+  ]
+ },
+ {
+  "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+  "tools": [
+   "pdflatex",
+   "bibtex",
+   "pdflatex",
+   "pdflatex"
+  ]
+ },
+ {
+  "name": "Compile Rnw files",
+  "tools": [
+   "rnw2tex",
+   "latexmk"
+  ]
+ },
+ {
+  "name": "Compile Jnw files",
+  "tools": [
+   "jnw2tex",
+   "latexmk"
+  ]
+ },
+ {
+  "name": "tectonic",
+  "tools": [
+   "tectonic"
+  ]
+ }
+]
+[17:28:07] latex-workshop.latex.tools: [
+ {
+  "name": "latexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-pdf",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "lualatexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-lualatex",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "xelatexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-xelatex",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "latexmk_rconly",
+  "command": "latexmk",
+  "args": [
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "pdflatex",
+  "command": "pdflatex",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "bibtex",
+  "command": "bibtex",
+  "args": [
+   "%DOCFILE%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "rnw2tex",
+  "command": "Rscript",
+  "args": [
+   "-e",
+   "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+  ],
+  "env": {}
+ },
+ {
+  "name": "jnw2tex",
+  "command": "julia",
+  "args": [
+   "-e",
+   "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+  ],
+  "env": {}
+ },
+ {
+  "name": "jnw2texmintex",
+  "command": "julia",
+  "args": [
+   "-e",
+   "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+  ],
+  "env": {}
+ },
+ {
+  "name": "tectonic",
+  "command": "tectonic",
+  "args": [
+   "--synctex",
+   "--keep-logs",
+   "%DOC%.tex"
+  ],
+  "env": {}
+ }
+]
+[17:28:07] latex-workshop.viewer.pdf.internal.keyboardEvent: "auto"
+[17:28:07] Creating a new file watcher.
+[17:28:07] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{"stabilityThreshold":250}}
+[17:28:07] Creating PDF file watcher.
+[17:28:07] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{}}
+[17:28:07] Creating Bib file watcher.
+[17:28:07] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{"stabilityThreshold":250}}
+[17:28:07] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[17:28:07] [Server] Creating LaTeX Workshop http and websocket server.
+[17:28:07] LaTeX Workshop initialized.
+[17:28:07] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[17:28:07] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[17:28:07] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:07] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:07] Root file changed: from undefined to /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:07] Start to find all dependencies.
+[17:28:07] Root file languageId: latex
+[17:28:07] [Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":36265}
+[17:28:07] Reset file watcher.
+[17:28:07] Parsing a file and its subfiles: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:07] Parse fls file.
+[17:28:07] Cannot find fls file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.fls
+[17:28:07] Added to file watcher: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:07] Snippet data loaded.
+[17:28:07] [Server] valdOrigin is http://127.0.0.1:36265
+[17:28:07] Checking for duplicate labels: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex.
+[17:28:08] BUILD command invoked.
+[17:28:08] The document of the active editor: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:08] The languageId of the document: latex
+[17:28:08] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:08] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:08] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:08] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:08] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:08] outDir: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:08] Recipe step 1: latexmk
+[17:28:08] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework/Instructions","/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7"]
+[17:28:08] Recipe step env: {}
+[17:28:08] cwd: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:08] LaTeX build process spawned. PID: 17648.
+[17:28:09] Manager.fileWatcher.getWatched: {"/home/dblock/GitHub/School/sem1/math340/Homework/Instructions":["Homework 7.tex"]}
+[17:28:09] Manager.filesWatched: ["/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex"]
+[17:28:09] BibWatcher.bibWatcher.getWatched: {}
+[17:28:09] BibWatcher.bibsWatched: []
+[17:28:09] PdfWatcher.pdfWatcher.getWatched: {}
+[17:28:09] PdfWatcher.pdfsWatched: []
+[17:28:09] PdfWatcher.watchedPdfVirtualUris: []
+[17:28:09] PdfWatcher.ignoredPdfUris: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.pdf"]
+[17:28:09] LaTeX log parsed with 3 messages.
+[17:28:09] Recipe of length 1 finished. PID: 17648.
+[17:28:09] Successfully built /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex.
+[17:28:09] Call refreshExistingViewer: {"sourceFile":"/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex"}
+[17:28:09] Not found PDF viewers to refresh: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework%207.pdf
+[17:28:09] Parse fls file.
+[17:28:09] Fls file found: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.fls
+[17:28:09] Parse aux file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.aux
+[17:28:13] BUILD command invoked.
+[17:28:13] The document of the active editor: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:13] The languageId of the document: latex
+[17:28:13] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:13] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:13] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:13] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:13] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:13] outDir: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:13] Recipe step 1: latexmk
+[17:28:13] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework/Instructions","/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7"]
+[17:28:13] Recipe step env: {}
+[17:28:13] cwd: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:13] LaTeX build process spawned. PID: 17663.
+[17:28:13] Recipe of length 1 finished. PID: 17663.
+[17:28:13] Successfully built /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex.
+[17:28:14] BUILD command invoked.
+[17:28:14] The document of the active editor: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:14] The languageId of the document: latex
+[17:28:14] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:14] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:14] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:14] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:14] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:14] outDir: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:14] Recipe step 1: latexmk
+[17:28:14] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework/Instructions","/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7"]
+[17:28:14] Recipe step env: {}
+[17:28:14] cwd: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:14] LaTeX build process spawned. PID: 17664.
+[17:28:14] Recipe of length 1 finished. PID: 17664.
+[17:28:14] Successfully built /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex.
+[17:28:15] BUILD command invoked.
+[17:28:15] The document of the active editor: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:15] The languageId of the document: latex
+[17:28:15] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:15] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:15] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:15] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:15] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:15] outDir: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:15] Recipe step 1: latexmk
+[17:28:15] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework/Instructions","/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7"]
+[17:28:15] Recipe step env: {}
+[17:28:15] cwd: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:15] LaTeX build process spawned. PID: 17665.
+[17:28:15] Recipe of length 1 finished. PID: 17665.
+[17:28:15] Successfully built /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex.
+[17:28:16] BUILD command invoked.
+[17:28:16] The document of the active editor: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:16] The languageId of the document: latex
+[17:28:16] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:16] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:16] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:16] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:16] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:16] outDir: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:16] Recipe step 1: latexmk
+[17:28:16] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework/Instructions","/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7"]
+[17:28:16] Recipe step env: {}
+[17:28:16] cwd: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:16] LaTeX build process spawned. PID: 17666.
+[17:28:16] Recipe of length 1 finished. PID: 17666.
+[17:28:16] Successfully built /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex.
+[17:28:17] VIEW command invoked with mode: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework%207.tex.
+[17:28:17] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:17] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:17] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:17] The internal PDF viewer url: http://127.0.0.1:36265/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZkYmxvY2slMkZHaXRIdWIlMkZTY2hvb2wlMkZzZW0xJTJGbWF0aDM0MCUyRkhvbWV3b3JrJTJGSW5zdHJ1Y3Rpb25zJTJGSG9tZXdvcmslMjA3LnBkZg
+[17:28:17] Added to PDF file watcher: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.pdf
+[17:28:17] Open PDF tab for file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.pdf
+[17:28:17] Handle data type: open
+[17:28:17] Preview PDF file: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.pdf
+[17:28:18] Handle data type: loaded
+[17:28:18] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:18] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:18] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:27] PDF file watcher - file deleted: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.pdf
+[17:28:29] BUILD command invoked.
+[17:28:29] The document of the active editor: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:29] The languageId of the document: latex
+[17:28:29] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:29] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:29] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:29] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:29] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex
+[17:28:29] outDir: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:29] Recipe step 1: latexmk
+[17:28:29] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework/Instructions","/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7"]
+[17:28:29] Recipe step env: {}
+[17:28:29] cwd: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions
+[17:28:29] LaTeX build process spawned. PID: 17726.
+[17:28:29] LaTeX log parsed with 3 messages.
+[17:28:29] Recipe of length 1 finished. PID: 17726.
+[17:28:29] Successfully built /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex.
+[17:28:29] Call refreshExistingViewer: {"sourceFile":"/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex"}
+[17:28:29] Refresh PDF viewer: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework%207.pdf
+[17:28:29] Parse fls file.
+[17:28:29] Fls file found: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.fls
+[17:28:29] Parse aux file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.aux
+[17:28:29] Preview PDF file: file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.pdf
+[17:28:29] Handle data type: loaded
+[17:28:39] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:39] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions"]
+[17:28:39] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 1.tex
+[17:28:39] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 1.tex
+[17:28:39] Root file changed: from /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.tex to /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 1.tex
+[17:28:39] Start to find all dependencies.
+[17:28:39] Root file languageId: latex
+[17:28:39] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 1.tex
+[17:28:39] Reset file watcher.
+[17:28:39] Parsing a file and its subfiles: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 1.tex
+[17:28:39] Parse fls file.
+[17:28:39] Cannot find fls file: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 1.fls
+[17:28:39] Added to file watcher: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 1.tex
+[17:28:39] Checking for duplicate labels: /home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 1.tex.
+[17:28:41] Manager.fileWatcher.getWatched: {"/home/dblock/GitHub/School/sem1/math340/Homework/Instructions":["Homework 1.tex"]}
+[17:28:41] Manager.filesWatched: ["/home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 1.tex"]
+[17:28:41] BibWatcher.bibWatcher.getWatched: {}
+[17:28:41] BibWatcher.bibsWatched: []
+[17:28:41] PdfWatcher.pdfWatcher.getWatched: {"/home/dblock/GitHub/School/sem1/math340/Homework/Instructions":[],"/home/dblock/GitHub/School/sem1/math340/Homework":["Instructions"]}
+[17:28:41] PdfWatcher.pdfsWatched: []
+[17:28:41] PdfWatcher.watchedPdfVirtualUris: []
+[17:28:41] PdfWatcher.ignoredPdfUris: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Instructions/Homework 7.pdf"]

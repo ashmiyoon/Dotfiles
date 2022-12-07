@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: BibtexOnline
+# key: online
+# --
+@online{pagehere,
+  author = {},
+  title = {},
+  year = {},
+  url = {},
+  urldate = {}
+}

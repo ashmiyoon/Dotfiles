@@ -1,0 +1,51 @@
+2022-10-11T06:22:58.622Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-10-11T06:22:58.628Z - info: [ui] [AppStore] found account: brandondyoon (brandondyoon)
+2022-10-11T06:22:58.996Z - info: [ui] Subscribed 'brandondyoon' to Alive channel
+2022-10-11T06:22:58.997Z - info: [ui] [BranchPruner] No branches to prune.
+2022-10-11T06:22:59.133Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.13-arch1-1)
+2022-10-11T06:22:59.134Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-10-11T06:22:59.191Z - info: [ui] Stats reported.
+2022-10-11T06:23:09.753Z - info: [ui] [Timing] Action 'create commit' for 'brandondyoon/CMSC132' took 1.063s
+2022-10-11T06:23:18.367Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: CMSC132 - brandondyoon (has token)
+2022-10-11T06:23:21.055Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 2.676s)
+2022-10-11T07:31:37.029Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-10-11T07:31:37.031Z - info: [ui] [AppStore] found account: brandondyoon (brandondyoon)
+2022-10-11T07:31:37.060Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2022-10-11T07:31:37.785Z - info: [ui] Subscribed 'brandondyoon' to Alive channel
+2022-10-11T07:31:38.026Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.13-arch1-1)
+2022-10-11T07:31:38.027Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-10-11T07:32:20.840Z - info: [ui] [Timing] Action 'create commit' for 'brandondyoon/CMSC132' took 0.244s
+2022-10-11T07:32:23.117Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: CMSC132 - brandondyoon (has token)
+2022-10-11T07:33:40.968Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T07:48:44.689Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T08:03:48.443Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T08:18:52.210Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T08:33:56.028Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T08:48:59.761Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T09:04:03.511Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T09:19:07.298Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T09:34:11.038Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T09:49:14.806Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T10:04:18.575Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T10:19:22.322Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T10:34:26.090Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T10:49:29.858Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T11:04:33.626Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T11:19:37.384Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T11:31:37.070Z - info: [ui] [BranchPruner] Last prune took place 5 hours ago - skipping
+2022-10-11T11:34:41.163Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T11:49:44.929Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T12:04:48.692Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T12:19:52.458Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T12:34:56.217Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T12:49:59.970Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T13:05:03.738Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T13:20:07.489Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T13:35:11.265Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T13:50:15.041Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T14:05:18.790Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T14:20:22.549Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T14:35:26.320Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T14:50:30.067Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T15:05:33.863Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s
+2022-10-11T15:20:37.606Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.2s of which 0.0s paused, total 0.2s

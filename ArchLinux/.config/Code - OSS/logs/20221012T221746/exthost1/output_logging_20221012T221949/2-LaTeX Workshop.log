@@ -1,0 +1,234 @@
+[22:19:53] Initializing LaTeX Workshop.
+[22:19:53] Extension root: /home/dblock/.vscode-oss/extensions/james-yu.latex-workshop-8.29.0-universal
+[22:19:53] $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[22:19:53] $SHELL: /bin/bash
+[22:19:53] $LANG: en_US.UTF-8
+[22:19:53] $LC_ALL: undefined
+[22:19:53] process.platform: linux
+[22:19:53] process.arch: x64
+[22:19:53] vscode.env.appName: Code - OSS
+[22:19:53] vscode.env.remoteName: undefined
+[22:19:53] vscode.env.uiKind: 1
+[22:19:53] Configuration for workspace: file:///home/dblock/GDrive/School/Y1F/ENMA150/Project 2
+[22:19:53] editor.acceptSuggestionOnEnter: "on"
+[22:19:53] latex-workshop.bind.enter.key: true
+[22:19:53] latex-workshop.docker.enabled: false
+[22:19:53] latex-workshop.docker.image.latex: ""
+[22:19:53] latex-workshop.hover.preview.mathjax.extensions: []
+[22:19:53] latex-workshop.intellisense.package.enabled: true
+[22:19:53] latex-workshop.intellisense.update.aggressive.enabled: false
+[22:19:53] latex-workshop.intellisense.update.delay: 1000
+[22:19:53] latex-workshop.latex.autoBuild.run: "onFileChange"
+[22:19:53] latex-workshop.latex.build.forceRecipeUsage: true
+[22:19:53] latex-workshop.latex.outDir: "%DIR%"
+[22:19:53] latex-workshop.latex.recipes: [
+ {
+  "name": "latexmk 🔃",
+  "tools": [
+   "latexmk"
+  ]
+ },
+ {
+  "name": "latexmk (latexmkrc)",
+  "tools": [
+   "latexmk_rconly"
+  ]
+ },
+ {
+  "name": "latexmk (lualatex)",
+  "tools": [
+   "lualatexmk"
+  ]
+ },
+ {
+  "name": "latexmk (xelatex)",
+  "tools": [
+   "xelatexmk"
+  ]
+ },
+ {
+  "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+  "tools": [
+   "pdflatex",
+   "bibtex",
+   "pdflatex",
+   "pdflatex"
+  ]
+ },
+ {
+  "name": "Compile Rnw files",
+  "tools": [
+   "rnw2tex",
+   "latexmk"
+  ]
+ },
+ {
+  "name": "Compile Jnw files",
+  "tools": [
+   "jnw2tex",
+   "latexmk"
+  ]
+ },
+ {
+  "name": "tectonic",
+  "tools": [
+   "tectonic"
+  ]
+ }
+]
+[22:19:53] latex-workshop.latex.tools: [
+ {
+  "name": "latexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-pdf",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "lualatexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-lualatex",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "xelatexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-xelatex",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "latexmk_rconly",
+  "command": "latexmk",
+  "args": [
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "pdflatex",
+  "command": "pdflatex",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "bibtex",
+  "command": "bibtex",
+  "args": [
+   "%DOCFILE%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "rnw2tex",
+  "command": "Rscript",
+  "args": [
+   "-e",
+   "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+  ],
+  "env": {}
+ },
+ {
+  "name": "jnw2tex",
+  "command": "julia",
+  "args": [
+   "-e",
+   "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+  ],
+  "env": {}
+ },
+ {
+  "name": "jnw2texmintex",
+  "command": "julia",
+  "args": [
+   "-e",
+   "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+  ],
+  "env": {}
+ },
+ {
+  "name": "tectonic",
+  "command": "tectonic",
+  "args": [
+   "--synctex",
+   "--keep-logs",
+   "%DOC%.tex"
+  ],
+  "env": {}
+ }
+]
+[22:19:53] latex-workshop.viewer.pdf.internal.keyboardEvent: "auto"
+[22:19:53] Creating a new file watcher.
+[22:19:53] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{"stabilityThreshold":250}}
+[22:19:53] Creating PDF file watcher.
+[22:19:53] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{}}
+[22:19:53] Creating Bib file watcher.
+[22:19:53] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{"stabilityThreshold":250}}
+[22:19:53] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[22:19:53] [Server] Creating LaTeX Workshop http and websocket server.
+[22:19:53] LaTeX Workshop initialized.
+[22:19:53] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[22:19:53] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[22:19:53] Current workspace folders: ["file:///home/dblock/GDrive/School/Y1F/ENMA150/Project 2"]
+[22:19:53] Found root file from active editor: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex
+[22:19:53] Root file changed: from undefined to /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex
+[22:19:53] Start to find all dependencies.
+[22:19:53] Root file languageId: latex
+[22:19:53] [Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":33915}
+[22:19:53] Reset file watcher.
+[22:19:53] Parsing a file and its subfiles: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex
+[22:19:53] Found .bib file: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/references.bib
+[22:19:53] Added to bib file watcher: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/references.bib
+[22:19:53] Parsing .bib entries from /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/references.bib
+[22:19:53] Added to file watcher: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex
+[22:19:53] Snippet data loaded.
+[22:19:54] [Server] valdOrigin is http://127.0.0.1:33915
+[22:19:54] Parsed 4 bib entries from /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/references.bib.
+[22:19:54] Parse fls file.
+[22:19:54] Cannot find fls file: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.fls
+[22:19:54] Checking for duplicate labels: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex.
+[22:19:55] VIEW command invoked with mode: file:///home/dblock/GDrive/School/Y1F/ENMA150/Project%202/project2.tex.
+[22:19:55] Current workspace folders: ["file:///home/dblock/GDrive/School/Y1F/ENMA150/Project 2"]
+[22:19:55] Found root file from active editor: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex
+[22:19:55] Keep using the same root file: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex
+[22:19:55] The internal PDF viewer url: http://127.0.0.1:33915/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZkYmxvY2slMkZHRHJpdmUlMkZTY2hvb2wlMkZZMUYlMkZFTk1BMTUwJTJGUHJvamVjdCUyMDIlMkZwcm9qZWN0Mi5wZGY
+[22:19:55] Added to PDF file watcher: file:///home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.pdf
+[22:19:55] Open PDF tab for file:///home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.pdf
+[22:19:55] Handle data type: open
+[22:19:55] Preview PDF file: file:///home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.pdf
+[22:19:55] Handle data type: loaded
+[22:19:56] Manager.fileWatcher.getWatched: {"/home/dblock/GDrive/School/Y1F/ENMA150/Project 2":["project2.tex"]}
+[22:19:56] Manager.filesWatched: ["/home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex"]
+[22:19:56] BibWatcher.bibWatcher.getWatched: {"/home/dblock/GDrive/School/Y1F/ENMA150/Project 2":["references.bib"]}
+[22:19:56] BibWatcher.bibsWatched: ["/home/dblock/GDrive/School/Y1F/ENMA150/Project 2/references.bib"]
+[22:19:56] PdfWatcher.pdfWatcher.getWatched: {"/home/dblock/GDrive/School/Y1F/ENMA150/Project 2":["project2.pdf"]}
+[22:19:56] PdfWatcher.pdfsWatched: ["/home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.pdf"]
+[22:19:56] PdfWatcher.watchedPdfVirtualUris: []
+[22:19:56] PdfWatcher.ignoredPdfUris: []
+[22:19:56] Current workspace folders: ["file:///home/dblock/GDrive/School/Y1F/ENMA150/Project 2"]
+[22:19:56] Found root file from active editor: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex
+[22:19:56] Keep using the same root file: /home/dblock/GDrive/School/Y1F/ENMA150/Project 2/project2.tex

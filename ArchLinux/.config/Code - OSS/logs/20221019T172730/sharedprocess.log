@@ -1,0 +1,14 @@
+[2022-10-19 17:27:32.776] [sharedprocess] [info] Starting worker process with pid 17501 (type: fileWatcher, window: 1).
+[2022-10-19 17:27:34.337] [sharedprocess] [info] Getting Manifest... asvetliakov.vscode-neovim
+[2022-10-19 17:27:34.907] [sharedprocess] [info] Installing extension: asvetliakov.vscode-neovim
+[2022-10-19 17:27:38.869] [sharedprocess] [info] Downloaded extension: asvetliakov.vscode-neovim /home/dblock/.config/Code - OSS/CachedExtensionVSIXs/asvetliakov.vscode-neovim-0.0.92-universal
+[2022-10-19 17:27:38.951] [sharedprocess] [info] Extracted extension to /home/dblock/.vscode-oss/extensions/.4dc859be-cec5-4760-b23e-eea83d3aa1bd: asvetliakov.vscode-neovim
+[2022-10-19 17:27:38.955] [sharedprocess] [info] Renamed to /home/dblock/.vscode-oss/extensions/asvetliakov.vscode-neovim-0.0.92-universal
+[2022-10-19 17:27:38.957] [sharedprocess] [info] Extracting completed. asvetliakov.vscode-neovim
+[2022-10-19 17:27:38.961] [sharedprocess] [info] Extension installed successfully: asvetliakov.vscode-neovim
+[2022-10-19 17:28:01.551] [sharedprocess] [info] Worker process with pid 17501 terminated normally (type: fileWatcher, window: 1).
+[2022-10-19 17:28:02.660] [sharedprocess] [info] Starting worker process with pid 17565 (type: fileWatcher, window: 1).
+[2022-10-19 17:28:47.830] [sharedprocess] [info] Worker process with pid 17565 terminated normally (type: fileWatcher, window: 1).
+[2022-10-19 17:28:48.774] [sharedprocess] [info] Starting worker process with pid 17745 (type: fileWatcher, window: 1).
+[2022-10-19 17:29:02.877] [sharedprocess] [info] Worker process with pid 17745 terminated normally (type: fileWatcher, window: 1).
+[2022-10-19 17:29:03.585] [sharedprocess] [info] Starting worker process with pid 17798 (type: fileWatcher, window: 1).

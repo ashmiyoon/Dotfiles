@@ -1,0 +1,55 @@
+[2022-10-19 17:27:32.656] [exthost] [info] Extension host with pid 17446 started
+[2022-10-19 17:27:32.701] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-19 17:27:32.702] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-10-19 17:27:32.702] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-19 17:27:32.729] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-19 17:27:32.741] [exthost] [info] Eager extensions activated
+[2022-10-19 17:27:32.744] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:27:32.744] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:28:01.542] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-19 17:28:01.545] [exthost] [info] Extension host with pid 17446 exiting with code 0
+[2022-10-19 17:28:03.069] [exthost] [info] Extension host with pid 17564 started
+[2022-10-19 17:28:03.069] [exthost] [info] Skipping acquiring lock for /home/dblock/.config/Code - OSS/User/workspaceStorage/61114408c1a482791ef059102e421ce2.
+[2022-10-19 17:28:03.111] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-19 17:28:03.111] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-10-19 17:28:03.111] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-19 17:28:03.125] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-19 17:28:03.130] [exthost] [info] Eager extensions activated
+[2022-10-19 17:28:03.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:28:03.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:28:04.685] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-10-19 17:28:04.762] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: '*'
+[2022-10-19 17:28:06.806] [exthost] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+[2022-10-19 17:28:07.111] [exthost] [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+[2022-10-19 17:28:07.113] [exthost] [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+[2022-10-19 17:28:47.804] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-19 17:28:47.833] [exthost] [info] Extension host with pid 17564 exiting with code 0
+[2022-10-19 17:28:49.208] [exthost] [info] Extension host with pid 17746 started
+[2022-10-19 17:28:49.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-19 17:28:49.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-19 17:28:49.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-19 17:28:49.238] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+[2022-10-19 17:28:49.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-19 17:28:49.266] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-19 17:28:49.318] [exthost] [info] Eager extensions activated
+[2022-10-19 17:28:49.319] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:28:49.319] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:29:02.863] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-19 17:29:02.871] [exthost] [info] Extension host with pid 17746 exiting with code 0
+[2022-10-19 17:29:03.990] [exthost] [info] Extension host with pid 17799 started
+[2022-10-19 17:29:03.990] [exthost] [info] Skipping acquiring lock for /home/dblock/.config/Code - OSS/User/workspaceStorage/1daf7969f2dd774f222c9129080072ca.
+[2022-10-19 17:29:04.024] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-19 17:29:04.024] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-19 17:29:04.024] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-19 17:29:04.024] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+[2022-10-19 17:29:04.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-19 17:29:04.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-19 17:29:04.126] [exthost] [info] Eager extensions activated
+[2022-10-19 17:29:04.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:29:04.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:29:09.463] [exthost] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+[2022-10-19 17:29:09.621] [exthost] [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+[2022-10-19 17:29:09.623] [exthost] [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+[2022-10-19 17:29:53.162] [exthost] [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+[2022-10-19 17:50:25.620] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-19 17:50:25.649] [exthost] [info] Extension host with pid 17799 exiting with code 0

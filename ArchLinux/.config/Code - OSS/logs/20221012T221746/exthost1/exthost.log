@@ -1,0 +1,33 @@
+[2022-10-12 22:17:48.805] [exthost] [info] Extension host with pid 64008 started
+[2022-10-12 22:17:48.855] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-12 22:17:48.856] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-12 22:17:48.856] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-12 22:17:48.933] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-12 22:17:48.934] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-12 22:17:49.027] [exthost] [info] Eager extensions activated
+[2022-10-12 22:17:49.039] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-12 22:17:49.039] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-12 22:18:08.767] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: '*'
+[2022-10-12 22:18:57.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-12 22:18:57.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-12 22:18:57.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-10-12 22:19:47.803] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-12 22:19:47.817] [exthost] [info] Extension host with pid 64008 exiting with code 0
+[2022-10-12 22:19:49.272] [exthost] [info] Extension host with pid 64407 started
+[2022-10-12 22:19:49.272] [exthost] [info] Skipping acquiring lock for /home/dblock/.config/Code - OSS/User/workspaceStorage/32a576ae619d173f58cd834a4f29234e.
+[2022-10-12 22:19:49.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-12 22:19:49.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-10-12 22:19:49.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-12 22:19:49.357] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-12 22:19:49.363] [exthost] [info] Eager extensions activated
+[2022-10-12 22:19:49.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-12 22:19:49.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-12 22:19:50.915] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-10-12 22:19:50.942] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: '*'
+[2022-10-12 22:19:53.669] [exthost] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+[2022-10-12 22:19:53.913] [exthost] [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+[2022-10-12 22:19:53.915] [exthost] [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+[2022-10-12 22:20:24.383] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-12 22:20:24.390] [exthost] [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+[2022-10-12 22:20:24.403] [exthost] [info] Extension host with pid 64407 exiting with code 0

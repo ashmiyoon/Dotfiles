@@ -1,0 +1,64 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="Back">
+      <i c="1" l="1665279834411" />
+    </e>
+    <e n="CompileDirty">
+      <i c="10" l="1665366546367" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="56" l="1665366697847" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="1" l="1665366388057" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="11" l="1665366690697" />
+    </e>
+    <e n="EditorEnter">
+      <i c="13" l="1665366694304" />
+    </e>
+    <e n="EditorTab">
+      <i c="19" l="1665366578502" />
+    </e>
+    <e n="RunClass">
+      <i c="8" l="1665366613085" />
+    </e>
+    <e n="SaveAll">
+      <i c="9" l="1665366705542" />
+    </e>
+    <e n="ShowSettings">
+      <i c="7" l="1665359123409" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1665359866328" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="2" l="1665365929375" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="3" l="1665279189597" />
+    </e>
+    <e n="com.intellij.codeInsight.daemon.NavigateAction">
+      <i c="2" l="1665365856650" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.PluginsTab$3$1">
+      <i c="1" l="1665359137210" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+      <i c="113" l="1665366705159" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="13" l="1665366545391" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="3" l="1665454953691" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="2" l="1665365961989" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
+      <i c="13" l="1665366705535" />
+    </e>
+  </component>
+</application>

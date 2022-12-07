@@ -1,0 +1,58 @@
+<application>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "InstalledPluginsSearchHistory": "theme",
+    "JUnitSupport.hidePassedTests": "false",
+    "MarketplacePluginsSearchHistory": "/tag:theme emacs\n/tag:theme\n/tag:theme doom\none dark\nclojure",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "RunOnceActivity.se.text.search": "true",
+    "SettingsSearchHistory": "theme",
+    "appcds.runOnSecondStart": "IU-223.6160.11-122d340fc653fca922b0ab5cce70d6bbf1cc47f0db708a08d619ba72b406f98c",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "defaultJdkConfigured": "true",
+    "eclipse.projects.detected": "",
+    "evlsprt3.IU-223.6160.11": "24",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "gotit.previous.run": "IU-223.6160.11",
+    "ide.memory.adjusted": "true",
+    "ide.updates.previous.build.number": "IU-223.6160.11",
+    "ideavim.statistics.timestamp": "1665454950344",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "223-1.7.20-release-201-IJ6160.11",
+    "last_opened_file_path": "/home/dblock/GitHub/CMSC132/proj3",
+    "previousColorScheme": "_@user_One Dark",
+    "registry.to.advanced.settings.migration.build": "IU-223.6160.11",
+    "stats.collector.latest.sending.timestamp": "1665455242670",
+    "stats.collector.today.sent.data.size": "14932",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "4.7.4"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/dblock/GitHub/CMSC132/proj3"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
+      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ShownTips"><![CDATA[{
+  "shownTips": {
+    "FileStructurePopup.html": 1665454949850,
+    "CopyPasteReference.html": 1665279340745
+  }
+}]]></component>
+</application>

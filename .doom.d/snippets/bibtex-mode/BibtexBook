@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: BibtexBook
+# key: book
+# expand-env: ((yas-indent-line 'fixed))
+# --
+@book{booknamehere,
+  author = {},
+  year = {},
+  title = {},
+  publisher = {},
+  edition = {}
+}

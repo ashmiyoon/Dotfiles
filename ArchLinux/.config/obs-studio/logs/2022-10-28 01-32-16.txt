@@ -1,0 +1,92 @@
+01:32:16.049: Using EGL/X11
+01:32:16.049: CPU Name: AMD Ryzen 7 3700X 8-Core Processor
+01:32:16.049: CPU Speed: 2200.000MHz
+01:32:16.049: Physical Cores: 8, Logical Cores: 16
+01:32:16.049: Physical Memory: 15920MB Total, 1591MB Free
+01:32:16.049: Kernel Version: Linux 6.0.2-arch1-1
+01:32:16.049: Distribution: "Arch Linux" Unknown
+01:32:16.049: Session Type: tty
+01:32:16.049: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+01:32:16.051: Qt Version: 6.4.0 (runtime), 6.4.0 (compiled)
+01:32:16.051: Portable mode: false
+01:32:16.253: OBS 28.0.3-2 (linux)
+01:32:16.253: ---------------------------------
+01:32:16.253: ---------------------------------
+01:32:16.253: audio settings reset:
+01:32:16.253: 	samples per sec: 48000
+01:32:16.253: 	speakers:        2
+01:32:16.253: 	max buffering:   960 milliseconds
+01:32:16.253: 	buffering type:  dynamically increasing
+01:32:16.256: ---------------------------------
+01:32:16.256: Initializing OpenGL...
+01:32:16.293: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+01:32:16.293: OpenGL loaded successfully, version 3.3.0 NVIDIA 520.56.06, shading language 3.30 NVIDIA via Cg compiler
+01:32:16.314: ---------------------------------
+01:32:16.314: video settings reset:
+01:32:16.314: 	base resolution:   1920x1080
+01:32:16.314: 	output resolution: 1920x1080
+01:32:16.314: 	downscale filter:  Bicubic
+01:32:16.314: 	fps:               60/1
+01:32:16.314: 	format:            NV12
+01:32:16.314: 	YUV mode:          Rec. 709/Partial
+01:32:16.314: NV12 texture support not available
+01:32:16.314: P010 texture support not available
+01:32:16.325: Audio monitoring device:
+01:32:16.325: 	name: Default
+01:32:16.325: 	id: default
+01:32:16.325: ---------------------------------
+01:32:16.333: Failed to load 'en-US' text for module: 'decklink-captions.so'
+01:32:16.341: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+01:32:16.349: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:32:16.349: Failed to initialize module 'decklink.so'
+01:32:16.498: [pipewire] No captures available
+01:32:16.515: v4l2loopback not installed, virtual camera disabled
+01:32:16.532: NVENC supported
+01:32:16.532: FFMPEG VAAPI supported
+01:32:16.593: ---------------------------------
+01:32:16.593:   Loaded Modules:
+01:32:16.593:     text-freetype2.so
+01:32:16.593:     rtmp-services.so
+01:32:16.593:     obs-x264.so
+01:32:16.593:     obs-vst.so
+01:32:16.593:     obs-transitions.so
+01:32:16.593:     obs-outputs.so
+01:32:16.593:     obs-filters.so
+01:32:16.593:     obs-ffmpeg.so
+01:32:16.593:     linux-v4l2.so
+01:32:16.593:     linux-pulseaudio.so
+01:32:16.593:     linux-pipewire.so
+01:32:16.593:     linux-jack.so
+01:32:16.593:     linux-capture.so
+01:32:16.593:     linux-alsa.so
+01:32:16.593:     image-source.so
+01:32:16.593:     frontend-tools.so
+01:32:16.593:     decklink-output-ui.so
+01:32:16.593:     decklink-captions.so
+01:32:16.593: ---------------------------------
+01:32:16.594: ==== Startup complete ===============================================
+01:32:16.616: All scene data cleared
+01:32:16.616: ------------------------------------------------
+01:32:16.619: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.59) 15.0.0'
+01:32:16.619: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+01:32:16.619: pulse-input: Started recording from 'alsa_output.usb-Focusrite_Scarlett_2i2_USB-00.analog-stereo.monitor'
+01:32:16.619: [Loaded global audio device]: 'Desktop Audio'
+01:32:16.620: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.59) 15.0.0'
+01:32:16.620: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+01:32:16.620: pulse-input: Started recording from 'alsa_input.usb-SHENZHEN_AONI_ELECTRONIC_CO.__LTD_Full_HD_webcam_20200618001-02.mono-fallback'
+01:32:16.620: [Loaded global audio device]: 'Mic/Aux'
+01:32:16.621: xshm-input: Geometry 1920x1080 @ 0,0
+01:32:16.621: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.59) 15.0.0'
+01:32:16.621: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+01:32:16.621: pulse-input: Started recording from 'easyeffects_sink.monitor'
+01:32:16.621: Switched to scene 'Scene'
+01:32:16.621: ------------------------------------------------
+01:32:16.621: Loaded scenes:
+01:32:16.621: - scene 'Scene':
+01:32:16.621:     - source: 'Screen Capture (XSHM)' (xshm_input)
+01:32:16.621:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+01:32:16.621: ------------------------------------------------
+01:32:17.171: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+01:32:17.171: 
+01:32:23.483: xshm-input: Geometry 1920x1080 @ 1920,0
+01:56:06.398: Failed to make context current: EGL_NOT_INITIALIZED

@@ -1,0 +1,4 @@
+[2022-10-13 15:19:50.238] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-10-13 15:19:51.318] [main] [info] Starting extension host with pid 29386 (fork() took 10 ms).
+[2022-10-13 15:48:16.624] [main] [info] Waiting for extension host with pid 29386 to exit.
+[2022-10-13 15:48:16.627] [main] [info] Extension host with pid 29386 exited with code: 0, signal: null.

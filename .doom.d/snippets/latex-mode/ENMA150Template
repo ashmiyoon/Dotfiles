@@ -1,0 +1,67 @@
+# -*- mode: snippet -*-
+# name: ENMA150 Template
+# key: enma150
+# --
+\documentclass{article}
+% Ebrahimian Math Stuff
+\usepackage{hyperref,amsmath,amsthm,amsfonts,etoolbox,amscd,flafter,epsf,amssymb,wasysym,graphicx,paralist,centernot,tikz,,pgfplots}
+
+% Briber Stuff
+\usepackage{siunitx}
+\usepackage{babel}
+\usepackage{mhchem}
+
+% Bibliography Stuff
+\usepackage[backend=biber,style=chem-acs]{biblatex}
+\addbibresource{references.bib}
+\usepackage{fullpage}
+
+\usepackage{titlesec}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{mathptmx}
+\usepackage{titling}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+% Formatting Document
+\titleformat{\section}
+  {\Large \bfseries}
+  {}
+  {0em}
+  {}[\titlerule]
+
+\titleformat{\subsection}
+  {\bfseries \large}
+  {}
+  {0em}
+  {}
+
+\titleformat{\subsubsection}[runin]
+  {\bfseries}
+  {}
+  {0em}
+  {}[\ \ ---]
+
+\linespread{1.5}
+
+
+\newcommand{\assignment}{Project 2} % This is the name of the assignment
+\newcommand{\student}{Brandon Yoon}
+\newcommand{\professor}{Professor Briber}
+\newcommand{\class}{ENMA150} % This is the name of the course
+\newcommand{\disctime}{Wednesday}
+\newcommand{\discta}{Emily Frashure}
+\newcommand{\duedate}{10/20/22} % This is the due date
+\newcommand{\timelimit}{}
+
+
+\begin{document}
+
+\begin{tabular}{l l}
+  \huge \assignment \\
+  Name: & \textit{\student} \\
+  Professor: & \textit{\professor} \\
+  Class: & \textit{\class} \\
+  Discussion: & \textit{\disctime \ (\discta)} \\
+  Date: & \textit{\duedate} \\
+\end{tabular}\\

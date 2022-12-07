@@ -1,0 +1,41 @@
+[2022-10-12 22:17:48.710] [sharedprocess] [info] Starting worker process with pid 64050 (type: fileWatcher, window: 1).
+[2022-10-12 22:18:04.887] [sharedprocess] [info] Getting Manifest... asvetliakov.vscode-neovim
+[2022-10-12 22:18:05.039] [sharedprocess] [info] Installing extension: asvetliakov.vscode-neovim
+[2022-10-12 22:18:08.442] [sharedprocess] [info] Downloaded extension: asvetliakov.vscode-neovim /home/dblock/.config/Code - OSS/CachedExtensionVSIXs/asvetliakov.vscode-neovim-0.0.89-universal
+[2022-10-12 22:18:08.520] [sharedprocess] [info] Extracted extension to /home/dblock/.vscode-oss/extensions/.993941a5-614b-4649-a3be-555c45dd1932: asvetliakov.vscode-neovim
+[2022-10-12 22:18:08.524] [sharedprocess] [info] Renamed to /home/dblock/.vscode-oss/extensions/asvetliakov.vscode-neovim-0.0.89-universal
+[2022-10-12 22:18:08.525] [sharedprocess] [info] Extracting completed. asvetliakov.vscode-neovim
+[2022-10-12 22:18:08.528] [sharedprocess] [info] Extension installed successfully: asvetliakov.vscode-neovim
+[2022-10-12 22:18:14.641] [sharedprocess] [info] Getting Manifest... rust-lang.rust
+[2022-10-12 22:18:14.725] [sharedprocess] [info] Installing extension: rust-lang.rust
+[2022-10-12 22:18:15.285] [sharedprocess] [info] Downloaded extension: rust-lang.rust /home/dblock/.config/Code - OSS/CachedExtensionVSIXs/rust-lang.rust-0.7.8-universal
+[2022-10-12 22:18:15.334] [sharedprocess] [info] Extracted extension to /home/dblock/.vscode-oss/extensions/.7f927dd4-f89e-4950-b5a7-ed284ad0464f: rust-lang.rust
+[2022-10-12 22:18:15.337] [sharedprocess] [info] Renamed to /home/dblock/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal
+[2022-10-12 22:18:15.338] [sharedprocess] [info] Extracting completed. rust-lang.rust
+[2022-10-12 22:18:15.339] [sharedprocess] [info] Extension installed successfully: rust-lang.rust
+[2022-10-12 22:18:17.967] [sharedprocess] [info] Getting Manifest... matklad.rust-analyzer
+[2022-10-12 22:18:18.052] [sharedprocess] [info] Installing extension: matklad.rust-analyzer
+[2022-10-12 22:18:18.628] [sharedprocess] [info] Downloaded extension: matklad.rust-analyzer /home/dblock/.config/Code - OSS/CachedExtensionVSIXs/matklad.rust-analyzer-0.2.853-universal
+[2022-10-12 22:18:18.663] [sharedprocess] [info] Extracted extension to /home/dblock/.vscode-oss/extensions/.f0678bbe-6540-47fa-81c8-37d455f54b24: matklad.rust-analyzer
+[2022-10-12 22:18:18.667] [sharedprocess] [info] Renamed to /home/dblock/.vscode-oss/extensions/matklad.rust-analyzer-0.2.853-universal
+[2022-10-12 22:18:18.668] [sharedprocess] [info] Extracting completed. matklad.rust-analyzer
+[2022-10-12 22:18:18.669] [sharedprocess] [info] Extension installed successfully: matklad.rust-analyzer
+[2022-10-12 22:18:20.732] [sharedprocess] [info] Uninstalling extension: rust-lang.rust@0.7.8
+[2022-10-12 22:18:20.851] [sharedprocess] [info] Detected extension removed from another source rust-lang.rust
+[2022-10-12 22:18:20.857] [sharedprocess] [info] Successfully uninstalled extension: rust-lang.rust@0.7.8
+[2022-10-12 22:18:39.892] [sharedprocess] [info] Getting Manifest... ms-vscode.cpptools-themes
+[2022-10-12 22:18:39.975] [sharedprocess] [info] Installing extension: ms-vscode.cpptools-themes
+[2022-10-12 22:18:40.375] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools-themes /home/dblock/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.cpptools-themes-1.0.0-universal
+[2022-10-12 22:18:40.387] [sharedprocess] [info] Extracted extension to /home/dblock/.vscode-oss/extensions/.a4b5cf6c-6e87-4cab-9b71-ecd1fc23102c: ms-vscode.cpptools-themes
+[2022-10-12 22:18:40.390] [sharedprocess] [info] Renamed to /home/dblock/.vscode-oss/extensions/ms-vscode.cpptools-themes-1.0.0-universal
+[2022-10-12 22:18:40.391] [sharedprocess] [info] Extracting completed. ms-vscode.cpptools-themes
+[2022-10-12 22:18:40.392] [sharedprocess] [info] Extension installed successfully: ms-vscode.cpptools-themes
+[2022-10-12 22:18:54.925] [sharedprocess] [info] Getting Manifest... james-yu.latex-workshop
+[2022-10-12 22:18:55.009] [sharedprocess] [info] Installing extension: james-yu.latex-workshop
+[2022-10-12 22:19:01.518] [sharedprocess] [info] Downloaded extension: james-yu.latex-workshop /home/dblock/.config/Code - OSS/CachedExtensionVSIXs/james-yu.latex-workshop-8.29.0-universal
+[2022-10-12 22:19:02.115] [sharedprocess] [info] Extracted extension to /home/dblock/.vscode-oss/extensions/.0de7f9e3-b38c-4684-8b86-411831fa2ffa: james-yu.latex-workshop
+[2022-10-12 22:19:02.129] [sharedprocess] [info] Renamed to /home/dblock/.vscode-oss/extensions/james-yu.latex-workshop-8.29.0-universal
+[2022-10-12 22:19:02.130] [sharedprocess] [info] Extracting completed. james-yu.latex-workshop
+[2022-10-12 22:19:02.132] [sharedprocess] [info] Extension installed successfully: james-yu.latex-workshop
+[2022-10-12 22:19:47.819] [sharedprocess] [info] Worker process with pid 64050 terminated normally (type: fileWatcher, window: 1).
+[2022-10-12 22:19:48.815] [sharedprocess] [info] Starting worker process with pid 64408 (type: fileWatcher, window: 1).

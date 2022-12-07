@@ -1,0 +1,48 @@
+<application>
+  <component name="ApplicationUserFactors">
+    <factor id="completionFinishedType">
+      <dailyData date="09-10-2022">
+        <observation name="cancelled" value="6.0" />
+        <observation name="explicitSelect" value="1.0" />
+        <observation name="typedSelect" value="9.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="09-10-2022">
+        <observation name="BASIC" value="16.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="09-10-2022">
+        <observation name="count" value="16.0" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="09-10-2022">
+        <observation name="0" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="09-10-2022">
+        <observation name="total" value="1.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="09-10-2022">
+        <observation name="11" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixMatchingType">
+      <dailyData date="09-10-2022">
+        <observation name="START_WITH" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="09-10-2022">
+        <observation name="average" value="150.038462" />
+        <observation name="count" value="26.0" />
+      </dailyData>
+    </factor>
+  </component>
+</application>

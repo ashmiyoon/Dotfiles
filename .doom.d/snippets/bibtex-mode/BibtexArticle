@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: BibtexArticle
+# key: article
+# expand-env: ((yas-indent-line 'fixed))
+# --
+@article{namehere,
+    title={},
+    author={},
+    journal={},
+    volume={},
+    number={},
+    pages={n--n},
+    year={},
+    publisher={}
+}

@@ -1,0 +1,98 @@
+# -*- mode: snippet -*-
+# name: Ebrahimian
+# key: Ebrahimian
+# expand-env: ((yas-indent-line 'fixed))
+# --
+
+\documentclass{article}
+%\documentclass[12pt]{exam}
+\usepackage{hyperref,amsmath,amsthm,amsfonts,etoolbox,amscd,flafter,epsf,amssymb,wasysym,graphicx,paralist,centernot,tikz,siunitx,pgfplots,cancel}
+
+% Dr. Ebrahimian's Stuff
+\newtheoremstyle{mytheoremstyle} % name
+{\topsep}                    % Space above
+    {\topsep}                    % Space below
+    {}                   % Body font
+    {}                           % Indent amount
+    {\bf}                   % Theorem head font
+    {.}                          % Punctuation after theorem head
+    {.5em}                       % Space after theorem head
+    {}  % Theorem head spec (can be left empty, meaning ‘normal’)
+
+\theoremstyle{mytheoremstyle}
+\newtheorem{question}{Question}
+\newtheorem{cor}{Corollary}[section]
+\newtheorem{example}{Example}[section]
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+%\AtEndEnvironment{defn}{\qed}
+
+\theoremstyle{remark}
+\newtheorem*{sol}{Solution}
+\newtheorem*{remark}{Remark}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{exe}{Exercise}[section]
+\setcounter{subsection}{1}
+\setcounter{section}{2}
+
+\newtheorem*{maintheorem1*}{Theorem A [Construction]}
+\newtheorem*{maintheorem2*}{Theorem B [Classification]}
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.75in}
+\linespread{1.5}
+
+\newcommand{\tr}{{\rm tr\ }}
+\newcommand{\diam}{{\rm diam\ }}
+\newcommand{\rank}{{\rm rank\ }}
+\newcommand{\im}{{\rm Im\ }}
+\newcommand{\RR}{{\mathbb{R} }}
+\newcommand{\QQ}{{\mathbb{Q} }}
+\newcommand{\ZZ}{{\mathbb{Z} }}
+\newcommand{\NN}{{\mathbb{N} }}
+\newcommand{\spann}{{\rm span\ }}
+\newcommand{\Col}{\ {\rm Col\ }}
+\newcommand{\Row}{\ {\rm Row\ }}
+
+\newcommand{\dint}{\displaystyle \int}
+\newcommand{\Ker}{\rm Ker\ }
+\newcommand{\dt}{\ {\rm d }t}
+\newcommand{\PP}{\mathbb{P}}
+
+\newcommand{\divider}{\rule{\textwidth}{0.5pt}}
+
+% Overleaf Stuff
+\pgfplotsset{width=10cm,compat=1.9}
+\usepgfplotslibrary{external}
+
+\newcommand{\class}{POOP999} % This is the name of the course
+\newcommand{\examnum}{Assignment Name Here} % This is the name of the assignment
+\newcommand{\examdate}{Date Here} % This is the due date
+\newcommand{\timelimit}{}
+
+
+
+% Document Begins Here
+
+\begin{document}
+\pagestyle{plain}
+\thispagestyle{empty}
+
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} l}
+\textbf{\class} & \textbf{Name:} & \textit{Brandon Yoon} \\\\ %Your name here instead, obviously
+\textbf{\examnum} && \\\\
+\textbf{\examdate} && \\\\
+\end{tabular*}\\
+\rule[2ex]{\textwidth}{2pt}
+% ---
+
+
+
+
+\end{document}

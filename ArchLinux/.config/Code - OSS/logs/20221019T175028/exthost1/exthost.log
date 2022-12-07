@@ -1,0 +1,16 @@
+[2022-10-19 17:50:30.504] [exthost] [info] Extension host with pid 21062 started
+[2022-10-19 17:50:30.504] [exthost] [info] Skipping acquiring lock for /home/dblock/.config/Code - OSS/User/workspaceStorage/1daf7969f2dd774f222c9129080072ca.
+[2022-10-19 17:50:30.571] [exthost] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop, startup: false, activationEvent: 'onLanguage:latex'
+[2022-10-19 17:50:30.572] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-19 17:50:30.572] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-19 17:50:30.572] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-19 17:50:30.572] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+[2022-10-19 17:50:30.912] [exthost] [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+[2022-10-19 17:50:30.913] [exthost] [warning] DiagnosticCollection with name 'BibTeX' does already exist.
+[2022-10-19 17:50:30.992] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-19 17:50:30.992] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-19 17:50:31.413] [exthost] [info] Eager extensions activated
+[2022-10-19 17:50:31.419] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:50:31.420] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-19 17:50:31.438] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-10-19 17:50:31.453] [exthost] [info] Extension host with pid 21062 exiting with code 0

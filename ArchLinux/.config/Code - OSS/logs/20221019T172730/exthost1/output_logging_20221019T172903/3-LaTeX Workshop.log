@@ -1,0 +1,451 @@
+[17:29:09] Initializing LaTeX Workshop.
+[17:29:09] Extension root: /home/dblock/.vscode-oss/extensions/james-yu.latex-workshop-8.29.0-universal
+[17:29:09] $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:29:09] $SHELL: /bin/bash
+[17:29:09] $LANG: en_US.UTF-8
+[17:29:09] $LC_ALL: undefined
+[17:29:09] process.platform: linux
+[17:29:09] process.arch: x64
+[17:29:09] vscode.env.appName: Code - OSS
+[17:29:09] vscode.env.remoteName: undefined
+[17:29:09] vscode.env.uiKind: 1
+[17:29:09] Configuration for workspace: file:///home/dblock/GitHub/School/sem1/math340/Homework
+[17:29:09] editor.acceptSuggestionOnEnter: "on"
+[17:29:09] latex-workshop.bind.enter.key: true
+[17:29:09] latex-workshop.docker.enabled: false
+[17:29:09] latex-workshop.docker.image.latex: ""
+[17:29:09] latex-workshop.hover.preview.mathjax.extensions: []
+[17:29:09] latex-workshop.intellisense.package.enabled: true
+[17:29:09] latex-workshop.intellisense.update.aggressive.enabled: false
+[17:29:09] latex-workshop.intellisense.update.delay: 1000
+[17:29:09] latex-workshop.latex.autoBuild.run: "onFileChange"
+[17:29:09] latex-workshop.latex.build.forceRecipeUsage: true
+[17:29:09] latex-workshop.latex.outDir: "%DIR%"
+[17:29:09] latex-workshop.latex.recipes: [
+ {
+  "name": "latexmk 🔃",
+  "tools": [
+   "latexmk"
+  ]
+ },
+ {
+  "name": "latexmk (latexmkrc)",
+  "tools": [
+   "latexmk_rconly"
+  ]
+ },
+ {
+  "name": "latexmk (lualatex)",
+  "tools": [
+   "lualatexmk"
+  ]
+ },
+ {
+  "name": "latexmk (xelatex)",
+  "tools": [
+   "xelatexmk"
+  ]
+ },
+ {
+  "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+  "tools": [
+   "pdflatex",
+   "bibtex",
+   "pdflatex",
+   "pdflatex"
+  ]
+ },
+ {
+  "name": "Compile Rnw files",
+  "tools": [
+   "rnw2tex",
+   "latexmk"
+  ]
+ },
+ {
+  "name": "Compile Jnw files",
+  "tools": [
+   "jnw2tex",
+   "latexmk"
+  ]
+ },
+ {
+  "name": "tectonic",
+  "tools": [
+   "tectonic"
+  ]
+ }
+]
+[17:29:09] latex-workshop.latex.tools: [
+ {
+  "name": "latexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-pdf",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "lualatexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-lualatex",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "xelatexmk",
+  "command": "latexmk",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "-xelatex",
+   "-outdir=%OUTDIR%",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "latexmk_rconly",
+  "command": "latexmk",
+  "args": [
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "pdflatex",
+  "command": "pdflatex",
+  "args": [
+   "-synctex=1",
+   "-interaction=nonstopmode",
+   "-file-line-error",
+   "%DOC%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "bibtex",
+  "command": "bibtex",
+  "args": [
+   "%DOCFILE%"
+  ],
+  "env": {}
+ },
+ {
+  "name": "rnw2tex",
+  "command": "Rscript",
+  "args": [
+   "-e",
+   "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+  ],
+  "env": {}
+ },
+ {
+  "name": "jnw2tex",
+  "command": "julia",
+  "args": [
+   "-e",
+   "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+  ],
+  "env": {}
+ },
+ {
+  "name": "jnw2texmintex",
+  "command": "julia",
+  "args": [
+   "-e",
+   "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+  ],
+  "env": {}
+ },
+ {
+  "name": "tectonic",
+  "command": "tectonic",
+  "args": [
+   "--synctex",
+   "--keep-logs",
+   "%DOC%.tex"
+  ],
+  "env": {}
+ }
+]
+[17:29:09] latex-workshop.viewer.pdf.internal.keyboardEvent: "auto"
+[17:29:09] Creating a new file watcher.
+[17:29:09] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{"stabilityThreshold":250}}
+[17:29:09] Creating PDF file watcher.
+[17:29:09] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{}}
+[17:29:09] Creating Bib file watcher.
+[17:29:09] watcherOptions: {"useFsEvents":false,"usePolling":false,"interval":300,"binaryInterval":1000,"awaitWriteFinish":{"stabilityThreshold":250}}
+[17:29:09] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[17:29:09] [Server] Creating LaTeX Workshop http and websocket server.
+[17:29:09] LaTeX Workshop initialized.
+[17:29:09] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[17:29:09] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[17:29:09] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework"]
+[17:29:09] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:29:09] Root file changed: from undefined to /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:29:09] Start to find all dependencies.
+[17:29:09] Root file languageId: latex
+[17:29:09] [Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":40231}
+[17:29:09] Reset file watcher.
+[17:29:09] Parsing a file and its subfiles: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:29:09] Parse fls file.
+[17:29:09] Cannot find fls file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fls
+[17:29:09] Added to file watcher: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:29:09] Snippet data loaded.
+[17:29:09] [Server] valdOrigin is http://127.0.0.1:40231
+[17:29:09] Checking for duplicate labels: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex.
+[17:29:10] BUILD command invoked.
+[17:29:10] The document of the active editor: file:///home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:29:10] The languageId of the document: latex
+[17:29:10] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework"]
+[17:29:10] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:29:10] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:29:10] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:29:10] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:29:10] outDir: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:29:10] Recipe step 1: latexmk
+[17:29:10] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework","/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7"]
+[17:29:10] Recipe step env: {}
+[17:29:10] cwd: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:29:10] LaTeX build process spawned. PID: 17896.
+[17:29:11] Manager.fileWatcher.getWatched: {"/home/dblock/GitHub/School/sem1/math340/Homework":["Work HW 7.tex"]}
+[17:29:11] Manager.filesWatched: ["/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex"]
+[17:29:11] BibWatcher.bibWatcher.getWatched: {}
+[17:29:11] BibWatcher.bibsWatched: []
+[17:29:11] PdfWatcher.pdfWatcher.getWatched: {}
+[17:29:11] PdfWatcher.pdfsWatched: []
+[17:29:11] PdfWatcher.watchedPdfVirtualUris: []
+[17:29:11] PdfWatcher.ignoredPdfUris: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.pdf"]
+[17:29:11] LaTeX log parsed with 5 messages.
+[17:29:11] Recipe returns with error: 12/null. PID: 17896. message: Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+.
+[17:29:11] The environment variable $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:29:11] The environment variable $Path: undefined
+[17:29:11] The environment variable $SHELL: /bin/bash
+[17:29:11] Cleaning auxiliary files and retrying build after toolchain error.
+[17:29:11] Clean glob matched files: {"globs":["*.aux","*.bbl","*.blg","*.idx","*.ind","*.lof","*.lot","*.out","*.toc","*.acn","*.acr","*.alg","*.glg","*.glo","*.gls","*.fls","*.log","*.fdb_latexmk","*.snm","*.synctex(busy)","*.synctex.gz(busy)","*.nav","*.vrb"],"outdir":"/home/dblock/GitHub/School/sem1/math340/Homework"}
+[17:29:11] Ignore folder glob patterns with globstar: 
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work.log
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.out
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.log
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fls
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fdb_latexmk
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.aux
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 6.out
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 6.log
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 6.fls
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 6.fdb_latexmk
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 6.aux
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 5.out
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 5.log
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 5.fls
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 5.fdb_latexmk
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 5.aux
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 2.out
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 2.log
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 2.aux
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/texput.log
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/prv_Work_HW_7.log
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/prv_Work_HW_6.log
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/prv_Work_HW_2.log
+[17:29:11] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/_region_.log
+[17:29:11] Recipe step 1: latexmk
+[17:29:11] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework","/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7"]
+[17:29:11] Recipe step env: {}
+[17:29:11] cwd: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:29:11] LaTeX build process spawned. PID: 17907.
+[17:29:12] LaTeX log parsed with 5 messages.
+[17:29:12] Recipe returns with error: 12/null. PID: 17907. message: Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+.
+[17:29:12] The environment variable $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:29:12] The environment variable $Path: undefined
+[17:29:12] The environment variable $SHELL: /bin/bash
+[17:30:01] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework"]
+[17:30:01] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework"]
+[17:30:01] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/_region_.tex
+[17:30:01] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/_region_.tex
+[17:30:01] Root file changed: from /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex to /home/dblock/GitHub/School/sem1/math340/Homework/_region_.tex
+[17:30:01] Start to find all dependencies.
+[17:30:01] Root file languageId: latex
+[17:30:01] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/_region_.tex
+[17:30:01] Reset file watcher.
+[17:30:01] Parsing a file and its subfiles: /home/dblock/GitHub/School/sem1/math340/Homework/_region_.tex
+[17:30:01] Parse fls file.
+[17:30:01] Cannot find fls file: /home/dblock/GitHub/School/sem1/math340/Homework/_region_.fls
+[17:30:01] Added to file watcher: /home/dblock/GitHub/School/sem1/math340/Homework/_region_.tex
+[17:30:01] Checking for duplicate labels: /home/dblock/GitHub/School/sem1/math340/Homework/_region_.tex.
+[17:30:03] Manager.fileWatcher.getWatched: {"/home/dblock/GitHub/School/sem1/math340/Homework":["_region_.tex"]}
+[17:30:03] Manager.filesWatched: ["/home/dblock/GitHub/School/sem1/math340/Homework/_region_.tex"]
+[17:30:03] BibWatcher.bibWatcher.getWatched: {}
+[17:30:03] BibWatcher.bibsWatched: []
+[17:30:03] PdfWatcher.pdfWatcher.getWatched: {}
+[17:30:03] PdfWatcher.pdfsWatched: []
+[17:30:03] PdfWatcher.watchedPdfVirtualUris: []
+[17:30:03] PdfWatcher.ignoredPdfUris: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.pdf"]
+[17:30:03] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework"]
+[17:30:03] Current workspace folders: ["file:///home/dblock/GitHub/School/sem1/math340/Homework"]
+[17:30:03] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:30:03] Found root file from active editor: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:30:03] Root file changed: from /home/dblock/GitHub/School/sem1/math340/Homework/_region_.tex to /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:30:03] Start to find all dependencies.
+[17:30:03] Root file languageId: latex
+[17:30:03] Keep using the same root file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:30:03] Reset file watcher.
+[17:30:03] Parsing a file and its subfiles: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:30:03] Parse fls file.
+[17:30:03] Fls file found: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fls
+[17:30:04] Parse aux file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.aux
+[17:30:04] Added to file watcher: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:30:04] Added to file watcher: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7-figure0.md5
+[17:30:04] Checking for duplicate labels: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex.
+[17:30:06] Manager.fileWatcher.getWatched: {"/home/dblock/GitHub/School/sem1/math340/Homework":["Work HW 7-figure0.md5","Work HW 7.tex"]}
+[17:30:06] Manager.filesWatched: ["/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex","/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7-figure0.md5"]
+[17:30:06] BibWatcher.bibWatcher.getWatched: {}
+[17:30:06] BibWatcher.bibsWatched: []
+[17:30:06] PdfWatcher.pdfWatcher.getWatched: {}
+[17:30:06] PdfWatcher.pdfsWatched: []
+[17:30:06] PdfWatcher.watchedPdfVirtualUris: []
+[17:30:06] PdfWatcher.ignoredPdfUris: ["file:///home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.pdf"]
+[17:33:44] File watcher - file changed: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:33:44] Parsing a file and its subfiles: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:33:44] Checking for duplicate labels: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex.
+[17:33:44] Auto build started detecting the change of a file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:33:44] BUILD command invoked.
+[17:33:44] The document of the active editor: output:extension-output-James-Yu.latex-workshop-%232-LaTeX Compiler
+[17:33:44] The languageId of the document: Log
+[17:33:44] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:33:44] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:33:44] outDir: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:33:44] Recipe step 1: latexmk
+[17:33:44] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework","/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7"]
+[17:33:44] Recipe step env: {}
+[17:33:44] cwd: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:33:44] LaTeX build process spawned. PID: 18482.
+[17:33:45] LaTeX log parsed with 4 messages.
+[17:33:45] Recipe returns with error: 12/null. PID: 18482. message: Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+.
+[17:33:45] The environment variable $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:33:45] The environment variable $Path: undefined
+[17:33:45] The environment variable $SHELL: /bin/bash
+[17:33:45] Cleaning auxiliary files and retrying build after toolchain error.
+[17:33:45] Clean glob matched files: {"globs":["*.aux","*.bbl","*.blg","*.idx","*.ind","*.lof","*.lot","*.out","*.toc","*.acn","*.acr","*.alg","*.glg","*.glo","*.gls","*.fls","*.log","*.fdb_latexmk","*.snm","*.synctex(busy)","*.synctex.gz(busy)","*.nav","*.vrb"],"outdir":"/home/dblock/GitHub/School/sem1/math340/Homework"}
+[17:33:45] Ignore folder glob patterns with globstar: 
+[17:33:45] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.out
+[17:33:45] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.log
+[17:33:45] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fls
+[17:33:45] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fdb_latexmk
+[17:33:45] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.aux
+[17:33:45] Recipe step 1: latexmk
+[17:33:45] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework","/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7"]
+[17:33:45] Recipe step env: {}
+[17:33:45] cwd: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:33:45] LaTeX build process spawned. PID: 18493.
+[17:33:46] LaTeX log parsed with 5 messages.
+[17:33:46] Recipe returns with error: 12/null. PID: 18493. message: Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+.
+[17:33:46] The environment variable $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:33:46] The environment variable $Path: undefined
+[17:33:46] The environment variable $SHELL: /bin/bash
+[17:37:55] File watcher - file changed: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:37:55] Parsing a file and its subfiles: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:37:56] Checking for duplicate labels: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex.
+[17:37:56] Auto build started detecting the change of a file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:37:56] BUILD command invoked.
+[17:37:56] The document of the active editor: output:extension-output-James-Yu.latex-workshop-%232-LaTeX Compiler
+[17:37:56] The languageId of the document: Log
+[17:37:56] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:37:56] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:37:56] outDir: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:37:56] Recipe step 1: latexmk
+[17:37:56] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework","/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7"]
+[17:37:56] Recipe step env: {}
+[17:37:56] cwd: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:37:56] LaTeX build process spawned. PID: 19409.
+[17:37:57] LaTeX log parsed with 5 messages.
+[17:37:57] Recipe returns with error: 12/null. PID: 19409. message: Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+.
+[17:37:57] The environment variable $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:37:57] The environment variable $Path: undefined
+[17:37:57] The environment variable $SHELL: /bin/bash
+[17:37:57] Cleaning auxiliary files and retrying build after toolchain error.
+[17:37:57] Clean glob matched files: {"globs":["*.aux","*.bbl","*.blg","*.idx","*.ind","*.lof","*.lot","*.out","*.toc","*.acn","*.acr","*.alg","*.glg","*.glo","*.gls","*.fls","*.log","*.fdb_latexmk","*.snm","*.synctex(busy)","*.synctex.gz(busy)","*.nav","*.vrb"],"outdir":"/home/dblock/GitHub/School/sem1/math340/Homework"}
+[17:37:57] Ignore folder glob patterns with globstar: 
+[17:37:57] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.out
+[17:37:57] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.log
+[17:37:57] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fls
+[17:37:57] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fdb_latexmk
+[17:37:57] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.aux
+[17:37:57] Recipe step 1: latexmk
+[17:37:57] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework","/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7"]
+[17:37:57] Recipe step env: {}
+[17:37:57] cwd: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:37:57] LaTeX build process spawned. PID: 19423.
+[17:37:57] LaTeX log parsed with 5 messages.
+[17:37:57] Recipe returns with error: 12/null. PID: 19423. message: Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+.
+[17:37:57] The environment variable $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:37:57] The environment variable $Path: undefined
+[17:37:57] The environment variable $SHELL: /bin/bash
+[17:38:55] File watcher - file changed: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:38:55] Parsing a file and its subfiles: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:38:56] Checking for duplicate labels: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex.
+[17:38:56] Auto build started detecting the change of a file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:38:56] BUILD command invoked.
+[17:38:56] The document of the active editor: output:extension-output-James-Yu.latex-workshop-%232-LaTeX Compiler
+[17:38:56] The languageId of the document: Log
+[17:38:56] Building root file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:38:56] Build root file /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.tex
+[17:38:56] outDir: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:38:56] Recipe step 1: latexmk
+[17:38:56] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework","/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7"]
+[17:38:56] Recipe step env: {}
+[17:38:56] cwd: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:38:56] LaTeX build process spawned. PID: 19510.
+[17:38:56] File watcher - file changed: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7-figure0.md5
+[17:38:56] Auto Build Run is temporarily disabled during a second.
+[17:38:56] LaTeX log parsed with 5 messages.
+[17:38:56] Recipe returns with error: 12/null. PID: 19510. message: Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+.
+[17:38:56] The environment variable $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:38:56] The environment variable $Path: undefined
+[17:38:56] The environment variable $SHELL: /bin/bash
+[17:38:56] Cleaning auxiliary files and retrying build after toolchain error.
+[17:38:56] Clean glob matched files: {"globs":["*.aux","*.bbl","*.blg","*.idx","*.ind","*.lof","*.lot","*.out","*.toc","*.acn","*.acr","*.alg","*.glg","*.glo","*.gls","*.fls","*.log","*.fdb_latexmk","*.snm","*.synctex(busy)","*.synctex.gz(busy)","*.nav","*.vrb"],"outdir":"/home/dblock/GitHub/School/sem1/math340/Homework"}
+[17:38:56] Ignore folder glob patterns with globstar: 
+[17:38:56] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.out
+[17:38:56] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.log
+[17:38:56] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fls
+[17:38:56] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.fdb_latexmk
+[17:38:56] Cleaning file: /home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7.aux
+[17:38:56] Recipe step 1: latexmk
+[17:38:56] Recipe step 1 args: ["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=/home/dblock/GitHub/School/sem1/math340/Homework","/home/dblock/GitHub/School/sem1/math340/Homework/Work HW 7"]
+[17:38:56] Recipe step env: {}
+[17:38:56] cwd: /home/dblock/GitHub/School/sem1/math340/Homework
+[17:38:56] LaTeX build process spawned. PID: 19523.
+[17:38:57] LaTeX log parsed with 5 messages.
+[17:38:57] Recipe returns with error: 12/null. PID: 19523. message: Latexmk: If appropriate, the -f option can be used to get latexmk
+  to try to force complete processing.
+.
+[17:38:57] The environment variable $PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/dblock/.emacs.d/bin
+[17:38:57] The environment variable $Path: undefined
+[17:38:57] The environment variable $SHELL: /bin/bash

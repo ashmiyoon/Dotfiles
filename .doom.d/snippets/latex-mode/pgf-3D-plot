@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: pgf-3D-plot
+# key: pgf-3D-plot
+# --
+\begin{tikzpicture}
+  \begin{axis}
+    \addplot3 (x, y, {x^2 + y^2});
+  \end{axis}
+\end{tikzpicture}

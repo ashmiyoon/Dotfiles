@@ -1,0 +1,26 @@
+2022-10-09T01:32:57.088Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-10-09T01:32:57.091Z - info: [ui] [AppStore] found account: brandondyoon (brandondyoon)
+2022-10-09T01:32:57.140Z - info: [ui] [BranchPruner] Last prune took place 6 hours ago - skipping
+2022-10-09T01:32:57.771Z - info: [ui] Subscribed 'brandondyoon' to Alive channel
+2022-10-09T01:32:57.902Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.13-arch1-1)
+2022-10-09T01:32:57.903Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-10-09T01:32:57.987Z - info: [ui] Stats reported.
+2022-10-09T01:33:01.526Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: CMSC132 - brandondyoon (has token)
+2022-10-09T01:33:01.859Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin` exited with an unexpected code: 1.
+stdout:
+Updating e88e333..24f0b49
+
+stderr:
+remote: Enumerating objects: 11, done.        
+remote: Counting objects:   9% (1/11)        remote: Counting objects:  18% (2/11)        remote: Counting objects:  27% (3/11)        remote: Counting objects:  36% (4/11)        remote: Counting objects:  45% (5/11)        remote: Counting objects:  54% (6/11)        remote: Counting objects:  63% (7/11)        remote: Counting objects:  72% (8/11)        remote: Counting objects:  81% (9/11)        remote: Counting objects:  90% (10/11)        remote: Counting objects: 100% (11/11)        remote: Counting objects: 100% (11/11), done.        
+remote: Compressing objects: 100% (1/1)        remote: Compressing objects: 100% (1/1), done.        
+remote: Total 6 (delta 4), reused 6 (delta 4), pack-reused 0        
+From https://github.com/brandondyoon/CMSC132
+   e88e333..24f0b49  main       -> origin/main
+error: Your local changes to the following files would be overwritten by merge:
+	proj3/src/listVersions/NormalLinkedList.java
+Please commit your changes or stash them before you merge.
+Aborting
+
+(The error was parsed as 53: null)
+2022-10-09T01:33:04.899Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: CMSC132 - brandondyoon (has token)

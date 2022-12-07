@@ -1,0 +1,7 @@
+# Basically I just ignore some directories which are too much
+**/discord/**
+**/nvim/**
+**/Insync/**
+**/plugged/**
+**/.cache/**
+**/.gitconfig
